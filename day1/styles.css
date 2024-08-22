@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  background-image: conic-gradient(
+    transparent 0%,
+    transparent 24.99%,
+    black 25%,
+    black 49.99%,
+    transparent 50%,
+    transparent 74.99%,
+    black 75%,
+    black 100%
+  );
+  background-size: 25vw 25vw;
+  animation: 10s checkerboard infinite;
+}
+
+@keyframes checkerboard {
+  from {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 500vw 500vw;
+  }
+}
