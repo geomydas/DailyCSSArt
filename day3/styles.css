@@ -1,0 +1,23 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    #ff0000 0%,
+    #ff0000 33.32%,
+    #00ff00 33.33%,
+    #00ff00 66.65%,
+    #0000ff 66.66%,
+    #0000ff 100%
+  );
+  min-height: 100vh;
+  margin: 0;
+  animation: screensaver 100s infinite;
+}
+
+@keyframes screensaver {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: 10000vw;
+  }
+}
