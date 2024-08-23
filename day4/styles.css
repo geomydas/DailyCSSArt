@@ -3,7 +3,7 @@
 }
 @media (prefers-reduce-motion) {
   :root {
-    --time: 3s;
+    --time: 4s;
   }
 }
 
