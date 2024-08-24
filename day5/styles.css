@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  grid-template-rows: repeat(25, 1fr);
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: black;
+}
+
+main {
+  width: 10vw;
+  height: 10vw;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  scale: 0;
+  transition: scale 0s, margin 0.5s;
+  border-radius: 9999px;
+  filter: blur(25px);
+  background-color: white;
+}
+
+section {
+  display: flex;
+}
+
+div {
+  width: 10vw;
+  height: 10vw;
+}
+
+body:has(div:hover) main {
+  scale: 1;
+}
+
+body:has(div:nth-child(0):hover) main {
+  margin-left: 0vw;
+}
+
+body:has(div:nth-child(1):hover) main {
+  margin-left: 10vw;
+}
+
+body:has(div:nth-child(2):hover) main {
+  margin-left: 20vw;
+}
+
+body:has(div:nth-child(3):hover) main {
+  margin-left: 30vw;
+}
+
+body:has(div:nth-child(4):hover) main {
+  margin-left: 40vw;
+}
+
+body:has(div:nth-child(5):hover) main {
+  margin-left: 50vw;
+}
+
+body:has(div:nth-child(6):hover) main {
+  margin-left: 60vw;
+}
+
+body:has(div:nth-child(7):hover) main {
+  margin-left: 70vw;
+}
+
+body:has(div:nth-child(8):hover) main {
+  margin-left: 80vw;
+}
+
+body:has(div:nth-child(9):hover) main {
+  margin-left: 90vw;
+}
+
+body:has(div:nth-child(10):hover) main {
+  margin-left: 100vw;
+}
+
+body:has(section:nth-child(0):hover) main {
+  margin-top: 0vw;
+}
+
+body:has(section:nth-child(1):hover) main {
+  margin-top: 10vw;
+}
+
+body:has(section:nth-child(2):hover) main {
+  margin-top: 20vw;
+}
+
+body:has(section:nth-child(3):hover) main {
+  margin-top: 30vw;
+}
+
+body:has(section:nth-child(4):hover) main {
+  margin-top: 40vw;
+}
+
+body:has(section:nth-child(5):hover) main {
+  margin-top: 50vw;
+}
+
+body:has(section:nth-child(6):hover) main {
+  margin-top: 60vw;
+}
+
+body:has(section:nth-child(7):hover) main {
+  margin-top: 70vw;
+}
+
+body:has(section:nth-child(8):hover) main {
+  margin-top: 80vw;
+}
+
+body:has(section:nth-child(9):hover) main {
+  margin-top: 90vw;
+}
+
+body:has(section:nth-child(10):hover) main {
+  margin-top: 100vw;
+}
+
+body:has(section:nth-child(11):hover) main {
+  margin-top: 110vw;
+}
+
+body:has(section:nth-child(12):hover) main {
+  margin-top: 120vw;
+}
+
+body:has(section:nth-child(13):hover) main {
+  margin-top: 130vw;
+}
+
+body:has(section:nth-child(14):hover) main {
+  margin-top: 140vw;
+}
+
+body:has(section:nth-child(15):hover) main {
+  margin-top: 150vw;
+}
+
+body:has(section:nth-child(16):hover) main {
+  margin-top: 160vw;
+}
+
+body:has(section:nth-child(17):hover) main {
+  margin-top: 170vw;
+}
+
+body:has(section:nth-child(18):hover) main {
+  margin-top: 180vw;
+}
+
+body:has(section:nth-child(19):hover) main {
+  margin-top: 190vw;
+}
+
+body:has(section:nth-child(20):hover) main {
+  margin-top: 200vw;
+}
+
+body:has(section:nth-child(21):hover) main {
+  margin-top: 210vw;
+}
+
+body:has(section:nth-child(22):hover) main {
+  margin-top: 220vw;
+}
+
+body:has(section:nth-child(23):hover) main {
+  margin-top: 230vw;
+}
+
+body:has(section:nth-child(24):hover) main {
+  margin-top: 240vw;
+}
+
+body:has(section:nth-child(25):hover) main {
+  margin-top: 250vw;
+}
+
+/*# sourceMappingURL=styles.css.map */

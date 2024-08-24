@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  display: grid;
+  grid-template-rows: repeat(25, 1fr);
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: black;
+}
+main {
+  width: 10vw;
+  height: 10vw;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  scale: 0;
+  transition: scale 0s, margin 0.5s;
+  border-radius: 9999px;
+  filter: blur(25px);
+  background-color: white;
+}
+section {
+  display: flex;
+}
+div {
+  width: 10vw;
+  height: 10vw;
+}
+body:has(div:hover) main {
+  scale: 1;
+}
+@for $i from 0 through 10 {
+  body:has(div:nth-child(#{$i}):hover) main {
+    margin-left: #{$i * 10vw};
+  }
+}
+@for $i from 0 through 25 {
+  body:has(section:nth-child(#{$i}):hover) main {
+    margin-top: #{$i * 10vw};
+  }
+}
