@@ -8,6 +8,7 @@ body {
   grid-template-rows: repeat(25, 1fr);
   min-height: 100vh;
   overflow: hidden;
+  cursor: none;
   background-color: black;
 }
 
@@ -21,7 +22,6 @@ main {
   scale: 0;
   transition: scale 0s, margin 0.5s;
   border-radius: 9999px;
-  filter: blur(25px);
   background-color: white;
 }
 

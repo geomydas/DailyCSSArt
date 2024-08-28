@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: #000;
+  color: white;
+  font-family: monospace, sans-serif;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  font-size: 5vw;
+  
+}
+*::selection {
+    background-color: transparent;
+}
+span {
+  animation: 0.5s hacker linear infinite;
+}
+
+span:nth-child(2n) {
+  animation-delay: -0.25s;
+}
+span:nth-child(3n) {
+  animation-delay: -0.65s;
+}
+span:nth-child(4n) {
+    animation-delay: -0.1s;
+}
+span:nth-child(5n) {
+    animation-delay: -0.4s;
+}
+span:nth-child(6n) {
+    animation-delay: -0.3s;
+}
+span:nth-child(7n) {
+    animation-name: -0.15s;
+}
+@keyframes hacker {
+  from {
+    color: chartreuse;
+  }
+  50% {
+    color: chartreuse;
+  }
+  50.01% {
+    color: black;
+  }
+  to {
+    color: black;
+  }
+}
