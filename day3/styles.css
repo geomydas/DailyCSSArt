@@ -10,7 +10,7 @@ body {
   );
   min-height: 100vh;
   margin: 0;
-  animation: screensaver 100s infinite;
+  animation: screensaver 1s linear infinite;
 }
 
 @keyframes screensaver {
@@ -18,6 +18,6 @@ body {
     background-position: 0;
   }
   to {
-    background-position: 10000vw;
+    background-position: 100vw;
   }
 }

@@ -32,7 +32,7 @@ main {
 div {
   border-radius: 9999px;
   mix-blend-mode: lighten;
-  animation: var(--time) color infinite;
+  animation: var(--time) color linear infinite;
 }
 div:nth-child(1) {
   animation-delay: calc(var(--time) / -3);
