@@ -1,0 +1,19 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    black 0%,
+    black 49.99%,
+    white 50%,
+    white 100%
+  );
+  animation: 1s loader linear infinite;
+  background-size: 25vw;
+}
+@keyframes loader {
+    from {
+        background-position: 0;
+    }
+    to {
+    background-position: 100vw;
+    }
+}

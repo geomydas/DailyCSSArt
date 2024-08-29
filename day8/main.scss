@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+span {
+  animation: 1s effect linear infinite;
+  display: inline-block;
+}
+@for $i from 1 through 22 {
+  span:nth-child(#{$i}) {
+    animation-delay: #{$i / 22 * 1s};
+  }
+}
+@keyframes effect {
+  to {
+    transform: rotateX(720deg);
+  }
+}
