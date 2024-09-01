@@ -4,9 +4,9 @@
 }
 
 body {
-  background-color: black;
   padding: 32px;
   display: grid;
+  background: black;
   place-items: center;
   height: 100vh;
   overflow: hidden;
@@ -16,9 +16,8 @@ div {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
   aspect-ratio: 1;
-  padding: 20px;
+  padding: clamp(5px, 2vw, 20px);
   border-radius: 9999px;
   background-image: linear-gradient(
     black 0,
@@ -26,7 +25,7 @@ div {
     white 50%,
     white 100%
   );
-  animation: rotate 20s  linear infinite;
+  animation: rotate 20s linear infinite;
   max-width: 600px;
   max-height: 600px;
 }
