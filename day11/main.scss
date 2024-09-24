@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  min-height: 100vh;
+  background: black;
+}
+
+body > div {
+  border-radius: 9999px;
+  height: 300px;
+  width: 20px;
+  position: absolute;
+}
+
+div > div {
+  height: 10px;
+  width: 10px;
+  background: white;
+  border-radius: 999px;
+  animation: 1s illusion linear infinite;
+}
+
+@keyframes illusion {
+  to {
+    transform: translateY(150px);
+  }
+}
+
+@for $i from 1 through 100 {
+  body > div:nth-child(#{$i}) {
+    rotate: #{$i * 3.6deg};
+  }
+  //   change the 3.6deg value and cooler things happen
+  body > div:nth-child(#{$i}) > div {
+    animation-delay: #{$i * 0.01s - 1s};
+  }
+}

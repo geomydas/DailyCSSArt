@@ -1,0 +1,835 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  min-height: 100vh;
+  background: black;
+}
+
+body > div {
+  border-radius: 9999px;
+  height: 300px;
+  width: 20px;
+  position: absolute;
+}
+
+div > div {
+  height: 10px;
+  width: 10px;
+  background: white;
+  border-radius: 999px;
+  animation: 1s illusion linear infinite;
+}
+
+@keyframes illusion {
+  to {
+    transform: translateY(150px);
+  }
+}
+body > div:nth-child(1) {
+  rotate: 3.6deg;
+}
+
+body > div:nth-child(1) > div {
+  animation-delay: -0.99s;
+}
+
+body > div:nth-child(2) {
+  rotate: 7.2deg;
+}
+
+body > div:nth-child(2) > div {
+  animation-delay: -0.98s;
+}
+
+body > div:nth-child(3) {
+  rotate: 10.8deg;
+}
+
+body > div:nth-child(3) > div {
+  animation-delay: -0.97s;
+}
+
+body > div:nth-child(4) {
+  rotate: 14.4deg;
+}
+
+body > div:nth-child(4) > div {
+  animation-delay: -0.96s;
+}
+
+body > div:nth-child(5) {
+  rotate: 18deg;
+}
+
+body > div:nth-child(5) > div {
+  animation-delay: -0.95s;
+}
+
+body > div:nth-child(6) {
+  rotate: 21.6deg;
+}
+
+body > div:nth-child(6) > div {
+  animation-delay: -0.94s;
+}
+
+body > div:nth-child(7) {
+  rotate: 25.2deg;
+}
+
+body > div:nth-child(7) > div {
+  animation-delay: -0.93s;
+}
+
+body > div:nth-child(8) {
+  rotate: 28.8deg;
+}
+
+body > div:nth-child(8) > div {
+  animation-delay: -0.92s;
+}
+
+body > div:nth-child(9) {
+  rotate: 32.4deg;
+}
+
+body > div:nth-child(9) > div {
+  animation-delay: -0.91s;
+}
+
+body > div:nth-child(10) {
+  rotate: 36deg;
+}
+
+body > div:nth-child(10) > div {
+  animation-delay: -0.9s;
+}
+
+body > div:nth-child(11) {
+  rotate: 39.6deg;
+}
+
+body > div:nth-child(11) > div {
+  animation-delay: -0.89s;
+}
+
+body > div:nth-child(12) {
+  rotate: 43.2deg;
+}
+
+body > div:nth-child(12) > div {
+  animation-delay: -0.88s;
+}
+
+body > div:nth-child(13) {
+  rotate: 46.8deg;
+}
+
+body > div:nth-child(13) > div {
+  animation-delay: -0.87s;
+}
+
+body > div:nth-child(14) {
+  rotate: 50.4deg;
+}
+
+body > div:nth-child(14) > div {
+  animation-delay: -0.86s;
+}
+
+body > div:nth-child(15) {
+  rotate: 54deg;
+}
+
+body > div:nth-child(15) > div {
+  animation-delay: -0.85s;
+}
+
+body > div:nth-child(16) {
+  rotate: 57.6deg;
+}
+
+body > div:nth-child(16) > div {
+  animation-delay: -0.84s;
+}
+
+body > div:nth-child(17) {
+  rotate: 61.2deg;
+}
+
+body > div:nth-child(17) > div {
+  animation-delay: -0.83s;
+}
+
+body > div:nth-child(18) {
+  rotate: 64.8deg;
+}
+
+body > div:nth-child(18) > div {
+  animation-delay: -0.82s;
+}
+
+body > div:nth-child(19) {
+  rotate: 68.4deg;
+}
+
+body > div:nth-child(19) > div {
+  animation-delay: -0.81s;
+}
+
+body > div:nth-child(20) {
+  rotate: 72deg;
+}
+
+body > div:nth-child(20) > div {
+  animation-delay: -0.8s;
+}
+
+body > div:nth-child(21) {
+  rotate: 75.6deg;
+}
+
+body > div:nth-child(21) > div {
+  animation-delay: -0.79s;
+}
+
+body > div:nth-child(22) {
+  rotate: 79.2deg;
+}
+
+body > div:nth-child(22) > div {
+  animation-delay: -0.78s;
+}
+
+body > div:nth-child(23) {
+  rotate: 82.8deg;
+}
+
+body > div:nth-child(23) > div {
+  animation-delay: -0.77s;
+}
+
+body > div:nth-child(24) {
+  rotate: 86.4deg;
+}
+
+body > div:nth-child(24) > div {
+  animation-delay: -0.76s;
+}
+
+body > div:nth-child(25) {
+  rotate: 90deg;
+}
+
+body > div:nth-child(25) > div {
+  animation-delay: -0.75s;
+}
+
+body > div:nth-child(26) {
+  rotate: 93.6deg;
+}
+
+body > div:nth-child(26) > div {
+  animation-delay: -0.74s;
+}
+
+body > div:nth-child(27) {
+  rotate: 97.2deg;
+}
+
+body > div:nth-child(27) > div {
+  animation-delay: -0.73s;
+}
+
+body > div:nth-child(28) {
+  rotate: 100.8deg;
+}
+
+body > div:nth-child(28) > div {
+  animation-delay: -0.72s;
+}
+
+body > div:nth-child(29) {
+  rotate: 104.4deg;
+}
+
+body > div:nth-child(29) > div {
+  animation-delay: -0.71s;
+}
+
+body > div:nth-child(30) {
+  rotate: 108deg;
+}
+
+body > div:nth-child(30) > div {
+  animation-delay: -0.7s;
+}
+
+body > div:nth-child(31) {
+  rotate: 111.6deg;
+}
+
+body > div:nth-child(31) > div {
+  animation-delay: -0.69s;
+}
+
+body > div:nth-child(32) {
+  rotate: 115.2deg;
+}
+
+body > div:nth-child(32) > div {
+  animation-delay: -0.68s;
+}
+
+body > div:nth-child(33) {
+  rotate: 118.8deg;
+}
+
+body > div:nth-child(33) > div {
+  animation-delay: -0.67s;
+}
+
+body > div:nth-child(34) {
+  rotate: 122.4deg;
+}
+
+body > div:nth-child(34) > div {
+  animation-delay: -0.66s;
+}
+
+body > div:nth-child(35) {
+  rotate: 126deg;
+}
+
+body > div:nth-child(35) > div {
+  animation-delay: -0.65s;
+}
+
+body > div:nth-child(36) {
+  rotate: 129.6deg;
+}
+
+body > div:nth-child(36) > div {
+  animation-delay: -0.64s;
+}
+
+body > div:nth-child(37) {
+  rotate: 133.2deg;
+}
+
+body > div:nth-child(37) > div {
+  animation-delay: -0.63s;
+}
+
+body > div:nth-child(38) {
+  rotate: 136.8deg;
+}
+
+body > div:nth-child(38) > div {
+  animation-delay: -0.62s;
+}
+
+body > div:nth-child(39) {
+  rotate: 140.4deg;
+}
+
+body > div:nth-child(39) > div {
+  animation-delay: -0.61s;
+}
+
+body > div:nth-child(40) {
+  rotate: 144deg;
+}
+
+body > div:nth-child(40) > div {
+  animation-delay: -0.6s;
+}
+
+body > div:nth-child(41) {
+  rotate: 147.6deg;
+}
+
+body > div:nth-child(41) > div {
+  animation-delay: -0.59s;
+}
+
+body > div:nth-child(42) {
+  rotate: 151.2deg;
+}
+
+body > div:nth-child(42) > div {
+  animation-delay: -0.58s;
+}
+
+body > div:nth-child(43) {
+  rotate: 154.8deg;
+}
+
+body > div:nth-child(43) > div {
+  animation-delay: -0.57s;
+}
+
+body > div:nth-child(44) {
+  rotate: 158.4deg;
+}
+
+body > div:nth-child(44) > div {
+  animation-delay: -0.56s;
+}
+
+body > div:nth-child(45) {
+  rotate: 162deg;
+}
+
+body > div:nth-child(45) > div {
+  animation-delay: -0.55s;
+}
+
+body > div:nth-child(46) {
+  rotate: 165.6deg;
+}
+
+body > div:nth-child(46) > div {
+  animation-delay: -0.54s;
+}
+
+body > div:nth-child(47) {
+  rotate: 169.2deg;
+}
+
+body > div:nth-child(47) > div {
+  animation-delay: -0.53s;
+}
+
+body > div:nth-child(48) {
+  rotate: 172.8deg;
+}
+
+body > div:nth-child(48) > div {
+  animation-delay: -0.52s;
+}
+
+body > div:nth-child(49) {
+  rotate: 176.4deg;
+}
+
+body > div:nth-child(49) > div {
+  animation-delay: -0.51s;
+}
+
+body > div:nth-child(50) {
+  rotate: 180deg;
+}
+
+body > div:nth-child(50) > div {
+  animation-delay: -0.5s;
+}
+
+body > div:nth-child(51) {
+  rotate: 183.6deg;
+}
+
+body > div:nth-child(51) > div {
+  animation-delay: -0.49s;
+}
+
+body > div:nth-child(52) {
+  rotate: 187.2deg;
+}
+
+body > div:nth-child(52) > div {
+  animation-delay: -0.48s;
+}
+
+body > div:nth-child(53) {
+  rotate: 190.8deg;
+}
+
+body > div:nth-child(53) > div {
+  animation-delay: -0.47s;
+}
+
+body > div:nth-child(54) {
+  rotate: 194.4deg;
+}
+
+body > div:nth-child(54) > div {
+  animation-delay: -0.46s;
+}
+
+body > div:nth-child(55) {
+  rotate: 198deg;
+}
+
+body > div:nth-child(55) > div {
+  animation-delay: -0.45s;
+}
+
+body > div:nth-child(56) {
+  rotate: 201.6deg;
+}
+
+body > div:nth-child(56) > div {
+  animation-delay: -0.44s;
+}
+
+body > div:nth-child(57) {
+  rotate: 205.2deg;
+}
+
+body > div:nth-child(57) > div {
+  animation-delay: -0.43s;
+}
+
+body > div:nth-child(58) {
+  rotate: 208.8deg;
+}
+
+body > div:nth-child(58) > div {
+  animation-delay: -0.42s;
+}
+
+body > div:nth-child(59) {
+  rotate: 212.4deg;
+}
+
+body > div:nth-child(59) > div {
+  animation-delay: -0.41s;
+}
+
+body > div:nth-child(60) {
+  rotate: 216deg;
+}
+
+body > div:nth-child(60) > div {
+  animation-delay: -0.4s;
+}
+
+body > div:nth-child(61) {
+  rotate: 219.6deg;
+}
+
+body > div:nth-child(61) > div {
+  animation-delay: -0.39s;
+}
+
+body > div:nth-child(62) {
+  rotate: 223.2deg;
+}
+
+body > div:nth-child(62) > div {
+  animation-delay: -0.38s;
+}
+
+body > div:nth-child(63) {
+  rotate: 226.8deg;
+}
+
+body > div:nth-child(63) > div {
+  animation-delay: -0.37s;
+}
+
+body > div:nth-child(64) {
+  rotate: 230.4deg;
+}
+
+body > div:nth-child(64) > div {
+  animation-delay: -0.36s;
+}
+
+body > div:nth-child(65) {
+  rotate: 234deg;
+}
+
+body > div:nth-child(65) > div {
+  animation-delay: -0.35s;
+}
+
+body > div:nth-child(66) {
+  rotate: 237.6deg;
+}
+
+body > div:nth-child(66) > div {
+  animation-delay: -0.34s;
+}
+
+body > div:nth-child(67) {
+  rotate: 241.2deg;
+}
+
+body > div:nth-child(67) > div {
+  animation-delay: -0.33s;
+}
+
+body > div:nth-child(68) {
+  rotate: 244.8deg;
+}
+
+body > div:nth-child(68) > div {
+  animation-delay: -0.32s;
+}
+
+body > div:nth-child(69) {
+  rotate: 248.4deg;
+}
+
+body > div:nth-child(69) > div {
+  animation-delay: -0.31s;
+}
+
+body > div:nth-child(70) {
+  rotate: 252deg;
+}
+
+body > div:nth-child(70) > div {
+  animation-delay: -0.3s;
+}
+
+body > div:nth-child(71) {
+  rotate: 255.6deg;
+}
+
+body > div:nth-child(71) > div {
+  animation-delay: -0.29s;
+}
+
+body > div:nth-child(72) {
+  rotate: 259.2deg;
+}
+
+body > div:nth-child(72) > div {
+  animation-delay: -0.28s;
+}
+
+body > div:nth-child(73) {
+  rotate: 262.8deg;
+}
+
+body > div:nth-child(73) > div {
+  animation-delay: -0.27s;
+}
+
+body > div:nth-child(74) {
+  rotate: 266.4deg;
+}
+
+body > div:nth-child(74) > div {
+  animation-delay: -0.26s;
+}
+
+body > div:nth-child(75) {
+  rotate: 270deg;
+}
+
+body > div:nth-child(75) > div {
+  animation-delay: -0.25s;
+}
+
+body > div:nth-child(76) {
+  rotate: 273.6deg;
+}
+
+body > div:nth-child(76) > div {
+  animation-delay: -0.24s;
+}
+
+body > div:nth-child(77) {
+  rotate: 277.2deg;
+}
+
+body > div:nth-child(77) > div {
+  animation-delay: -0.23s;
+}
+
+body > div:nth-child(78) {
+  rotate: 280.8deg;
+}
+
+body > div:nth-child(78) > div {
+  animation-delay: -0.22s;
+}
+
+body > div:nth-child(79) {
+  rotate: 284.4deg;
+}
+
+body > div:nth-child(79) > div {
+  animation-delay: -0.21s;
+}
+
+body > div:nth-child(80) {
+  rotate: 288deg;
+}
+
+body > div:nth-child(80) > div {
+  animation-delay: -0.2s;
+}
+
+body > div:nth-child(81) {
+  rotate: 291.6deg;
+}
+
+body > div:nth-child(81) > div {
+  animation-delay: -0.19s;
+}
+
+body > div:nth-child(82) {
+  rotate: 295.2deg;
+}
+
+body > div:nth-child(82) > div {
+  animation-delay: -0.18s;
+}
+
+body > div:nth-child(83) {
+  rotate: 298.8deg;
+}
+
+body > div:nth-child(83) > div {
+  animation-delay: -0.17s;
+}
+
+body > div:nth-child(84) {
+  rotate: 302.4deg;
+}
+
+body > div:nth-child(84) > div {
+  animation-delay: -0.16s;
+}
+
+body > div:nth-child(85) {
+  rotate: 306deg;
+}
+
+body > div:nth-child(85) > div {
+  animation-delay: -0.15s;
+}
+
+body > div:nth-child(86) {
+  rotate: 309.6deg;
+}
+
+body > div:nth-child(86) > div {
+  animation-delay: -0.14s;
+}
+
+body > div:nth-child(87) {
+  rotate: 313.2deg;
+}
+
+body > div:nth-child(87) > div {
+  animation-delay: -0.13s;
+}
+
+body > div:nth-child(88) {
+  rotate: 316.8deg;
+}
+
+body > div:nth-child(88) > div {
+  animation-delay: -0.12s;
+}
+
+body > div:nth-child(89) {
+  rotate: 320.4deg;
+}
+
+body > div:nth-child(89) > div {
+  animation-delay: -0.11s;
+}
+
+body > div:nth-child(90) {
+  rotate: 324deg;
+}
+
+body > div:nth-child(90) > div {
+  animation-delay: -0.1s;
+}
+
+body > div:nth-child(91) {
+  rotate: 327.6deg;
+}
+
+body > div:nth-child(91) > div {
+  animation-delay: -0.09s;
+}
+
+body > div:nth-child(92) {
+  rotate: 331.2deg;
+}
+
+body > div:nth-child(92) > div {
+  animation-delay: -0.08s;
+}
+
+body > div:nth-child(93) {
+  rotate: 334.8deg;
+}
+
+body > div:nth-child(93) > div {
+  animation-delay: -0.07s;
+}
+
+body > div:nth-child(94) {
+  rotate: 338.4deg;
+}
+
+body > div:nth-child(94) > div {
+  animation-delay: -0.06s;
+}
+
+body > div:nth-child(95) {
+  rotate: 342deg;
+}
+
+body > div:nth-child(95) > div {
+  animation-delay: -0.05s;
+}
+
+body > div:nth-child(96) {
+  rotate: 345.6deg;
+}
+
+body > div:nth-child(96) > div {
+  animation-delay: -0.04s;
+}
+
+body > div:nth-child(97) {
+  rotate: 349.2deg;
+}
+
+body > div:nth-child(97) > div {
+  animation-delay: -0.03s;
+}
+
+body > div:nth-child(98) {
+  rotate: 352.8deg;
+}
+
+body > div:nth-child(98) > div {
+  animation-delay: -0.02s;
+}
+
+body > div:nth-child(99) {
+  rotate: 356.4deg;
+}
+
+body > div:nth-child(99) > div {
+  animation-delay: -0.01s;
+}
+
+body > div:nth-child(100) {
+  rotate: 360deg;
+}
+
+body > div:nth-child(100) > div {
+  animation-delay: 0s;
+}
+
+/*# sourceMappingURL=styles.css.map */
