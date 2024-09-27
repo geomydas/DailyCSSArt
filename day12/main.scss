@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  overflow: hidden;
+  background: #000;
+}
+
+body > div {
+  width: 1vw;
+  height: 100vh;
+}
+
+div > div {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 9999px;
+  animation: 1s illusion ease alternate infinite;
+}
+
+@keyframes illusion {
+  to {
+    transform: translateY(100vh);
+  }
+}
+
+@for $i from 1 through 100 {
+  div:nth-child(#{$i}) > div {
+    animation-delay: #{$i / 100 * -1s};
+  }
+}
+

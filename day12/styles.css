@@ -1,0 +1,430 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  overflow: hidden;
+  background: #000;
+}
+
+body > div {
+  width: 1vw;
+  height: 100vh;
+}
+
+div > div {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 9999px;
+  animation: 1s illusion ease alternate infinite;
+}
+
+@keyframes illusion {
+  to {
+    transform: translateY(100vh);
+  }
+}
+div:nth-child(1) > div {
+  animation-delay: -0.01s;
+}
+
+div:nth-child(2) > div {
+  animation-delay: -0.02s;
+}
+
+div:nth-child(3) > div {
+  animation-delay: -0.03s;
+}
+
+div:nth-child(4) > div {
+  animation-delay: -0.04s;
+}
+
+div:nth-child(5) > div {
+  animation-delay: -0.05s;
+}
+
+div:nth-child(6) > div {
+  animation-delay: -0.06s;
+}
+
+div:nth-child(7) > div {
+  animation-delay: -0.07s;
+}
+
+div:nth-child(8) > div {
+  animation-delay: -0.08s;
+}
+
+div:nth-child(9) > div {
+  animation-delay: -0.09s;
+}
+
+div:nth-child(10) > div {
+  animation-delay: -0.1s;
+}
+
+div:nth-child(11) > div {
+  animation-delay: -0.11s;
+}
+
+div:nth-child(12) > div {
+  animation-delay: -0.12s;
+}
+
+div:nth-child(13) > div {
+  animation-delay: -0.13s;
+}
+
+div:nth-child(14) > div {
+  animation-delay: -0.14s;
+}
+
+div:nth-child(15) > div {
+  animation-delay: -0.15s;
+}
+
+div:nth-child(16) > div {
+  animation-delay: -0.16s;
+}
+
+div:nth-child(17) > div {
+  animation-delay: -0.17s;
+}
+
+div:nth-child(18) > div {
+  animation-delay: -0.18s;
+}
+
+div:nth-child(19) > div {
+  animation-delay: -0.19s;
+}
+
+div:nth-child(20) > div {
+  animation-delay: -0.2s;
+}
+
+div:nth-child(21) > div {
+  animation-delay: -0.21s;
+}
+
+div:nth-child(22) > div {
+  animation-delay: -0.22s;
+}
+
+div:nth-child(23) > div {
+  animation-delay: -0.23s;
+}
+
+div:nth-child(24) > div {
+  animation-delay: -0.24s;
+}
+
+div:nth-child(25) > div {
+  animation-delay: -0.25s;
+}
+
+div:nth-child(26) > div {
+  animation-delay: -0.26s;
+}
+
+div:nth-child(27) > div {
+  animation-delay: -0.27s;
+}
+
+div:nth-child(28) > div {
+  animation-delay: -0.28s;
+}
+
+div:nth-child(29) > div {
+  animation-delay: -0.29s;
+}
+
+div:nth-child(30) > div {
+  animation-delay: -0.3s;
+}
+
+div:nth-child(31) > div {
+  animation-delay: -0.31s;
+}
+
+div:nth-child(32) > div {
+  animation-delay: -0.32s;
+}
+
+div:nth-child(33) > div {
+  animation-delay: -0.33s;
+}
+
+div:nth-child(34) > div {
+  animation-delay: -0.34s;
+}
+
+div:nth-child(35) > div {
+  animation-delay: -0.35s;
+}
+
+div:nth-child(36) > div {
+  animation-delay: -0.36s;
+}
+
+div:nth-child(37) > div {
+  animation-delay: -0.37s;
+}
+
+div:nth-child(38) > div {
+  animation-delay: -0.38s;
+}
+
+div:nth-child(39) > div {
+  animation-delay: -0.39s;
+}
+
+div:nth-child(40) > div {
+  animation-delay: -0.4s;
+}
+
+div:nth-child(41) > div {
+  animation-delay: -0.41s;
+}
+
+div:nth-child(42) > div {
+  animation-delay: -0.42s;
+}
+
+div:nth-child(43) > div {
+  animation-delay: -0.43s;
+}
+
+div:nth-child(44) > div {
+  animation-delay: -0.44s;
+}
+
+div:nth-child(45) > div {
+  animation-delay: -0.45s;
+}
+
+div:nth-child(46) > div {
+  animation-delay: -0.46s;
+}
+
+div:nth-child(47) > div {
+  animation-delay: -0.47s;
+}
+
+div:nth-child(48) > div {
+  animation-delay: -0.48s;
+}
+
+div:nth-child(49) > div {
+  animation-delay: -0.49s;
+}
+
+div:nth-child(50) > div {
+  animation-delay: -0.5s;
+}
+
+div:nth-child(51) > div {
+  animation-delay: -0.51s;
+}
+
+div:nth-child(52) > div {
+  animation-delay: -0.52s;
+}
+
+div:nth-child(53) > div {
+  animation-delay: -0.53s;
+}
+
+div:nth-child(54) > div {
+  animation-delay: -0.54s;
+}
+
+div:nth-child(55) > div {
+  animation-delay: -0.55s;
+}
+
+div:nth-child(56) > div {
+  animation-delay: -0.56s;
+}
+
+div:nth-child(57) > div {
+  animation-delay: -0.57s;
+}
+
+div:nth-child(58) > div {
+  animation-delay: -0.58s;
+}
+
+div:nth-child(59) > div {
+  animation-delay: -0.59s;
+}
+
+div:nth-child(60) > div {
+  animation-delay: -0.6s;
+}
+
+div:nth-child(61) > div {
+  animation-delay: -0.61s;
+}
+
+div:nth-child(62) > div {
+  animation-delay: -0.62s;
+}
+
+div:nth-child(63) > div {
+  animation-delay: -0.63s;
+}
+
+div:nth-child(64) > div {
+  animation-delay: -0.64s;
+}
+
+div:nth-child(65) > div {
+  animation-delay: -0.65s;
+}
+
+div:nth-child(66) > div {
+  animation-delay: -0.66s;
+}
+
+div:nth-child(67) > div {
+  animation-delay: -0.67s;
+}
+
+div:nth-child(68) > div {
+  animation-delay: -0.68s;
+}
+
+div:nth-child(69) > div {
+  animation-delay: -0.69s;
+}
+
+div:nth-child(70) > div {
+  animation-delay: -0.7s;
+}
+
+div:nth-child(71) > div {
+  animation-delay: -0.71s;
+}
+
+div:nth-child(72) > div {
+  animation-delay: -0.72s;
+}
+
+div:nth-child(73) > div {
+  animation-delay: -0.73s;
+}
+
+div:nth-child(74) > div {
+  animation-delay: -0.74s;
+}
+
+div:nth-child(75) > div {
+  animation-delay: -0.75s;
+}
+
+div:nth-child(76) > div {
+  animation-delay: -0.76s;
+}
+
+div:nth-child(77) > div {
+  animation-delay: -0.77s;
+}
+
+div:nth-child(78) > div {
+  animation-delay: -0.78s;
+}
+
+div:nth-child(79) > div {
+  animation-delay: -0.79s;
+}
+
+div:nth-child(80) > div {
+  animation-delay: -0.8s;
+}
+
+div:nth-child(81) > div {
+  animation-delay: -0.81s;
+}
+
+div:nth-child(82) > div {
+  animation-delay: -0.82s;
+}
+
+div:nth-child(83) > div {
+  animation-delay: -0.83s;
+}
+
+div:nth-child(84) > div {
+  animation-delay: -0.84s;
+}
+
+div:nth-child(85) > div {
+  animation-delay: -0.85s;
+}
+
+div:nth-child(86) > div {
+  animation-delay: -0.86s;
+}
+
+div:nth-child(87) > div {
+  animation-delay: -0.87s;
+}
+
+div:nth-child(88) > div {
+  animation-delay: -0.88s;
+}
+
+div:nth-child(89) > div {
+  animation-delay: -0.89s;
+}
+
+div:nth-child(90) > div {
+  animation-delay: -0.9s;
+}
+
+div:nth-child(91) > div {
+  animation-delay: -0.91s;
+}
+
+div:nth-child(92) > div {
+  animation-delay: -0.92s;
+}
+
+div:nth-child(93) > div {
+  animation-delay: -0.93s;
+}
+
+div:nth-child(94) > div {
+  animation-delay: -0.94s;
+}
+
+div:nth-child(95) > div {
+  animation-delay: -0.95s;
+}
+
+div:nth-child(96) > div {
+  animation-delay: -0.96s;
+}
+
+div:nth-child(97) > div {
+  animation-delay: -0.97s;
+}
+
+div:nth-child(98) > div {
+  animation-delay: -0.98s;
+}
+
+div:nth-child(99) > div {
+  animation-delay: -0.99s;
+}
+
+div:nth-child(100) > div {
+  animation-delay: -1s;
+}
+
+/*# sourceMappingURL=styles.css.map */
