@@ -19,7 +19,7 @@ div > div {
   height: 10px;
   background-color: white;
   border-radius: 9999px;
-  animation: 1s illusion ease alternate infinite;
+  animation: 1s illusion linear alternate infinite;
 }
 
 @keyframes illusion {

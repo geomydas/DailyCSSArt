@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  min-height: 100vh;
+  background: #000;
+}
+
+div {
+  position: absolute;
+}
+.blue,
+.red {
+  inset: 0;
+  margin: auto;
+  width: 100%;
+  max-width: 300px;
+  aspect-ratio: 1;
+  border-radius: 9999px;
+  mix-blend-mode: screen;
+  animation: 4s hollow linear infinite;
+}
+
+.red {
+  background: #f00;
+  left: 0;
+  transform: translateX(-100vw);
+}
+
+.blue {
+  background-color: #00f;
+  right: 0;
+  transform: translateX(100vw);
+}
+
+@keyframes hollow {
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.white {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  scale: 0;
+  animation: 4s kaboom linear infinite;
+  animation-delay: 0.25s;
+}
+
+@keyframes kaboom {
+  75% {
+    scale: 0;
+  }
+  100% {
+    scale: 1;
+  }
+}

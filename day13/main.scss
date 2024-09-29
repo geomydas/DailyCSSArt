@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: #000;
+  overflow: hidden;
+}
+
+$time: 10s;
+
+div {
+  width: var(--w);
+  height: var(--w);
+  position: absolute;
+  animation: $time illusion linear alternate infinite;
+  outline: 1px solid #fff;
+}
+
+@for $i from 1 through 100 {
+  div:nth-child(#{$i}) {
+    --w:  calc(#{$i} * (1vw + 1vh) );
+    animation-delay: #{$i * $time / -100};
+  }
+}
+@keyframes illusion {
+  to {
+    rotate: 360deg;
+  }
+}
